@@ -1,0 +1,359 @@
+body{
+    margin: 0;
+}
+html {
+  scroll-behavior: smooth;
+}
+*, ::after, ::before {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+
+}
+
+.header{
+    border-radius:100px;
+    margin-top: 10px;
+    margin-left: 18.5vw;
+    width: 62vw!important;
+    z-index: 1000;
+    position: fixed;
+    display: grid;
+    -webkit-box-align: center;
+    align-items: center;
+    background: #100e17;
+    border-bottom: 1px solid #201c29;
+    -webkit-animation: none;
+    animation: none;
+}
+
+.header .harea {
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+}
+
+.header .main-nav .sections {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+nav ol, nav ul {
+    list-style: none;
+    list-style-image: none;
+}
+
+.header .main-nav .sections>li {
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    text-align: center;
+}
+
+.header .main-nav .sections>li>a>img {
+    -webkit-transition: .2s;
+    transition: .2s;
+    pointer-events: none;
+    width: 40px;
+    height: 40px;
+    display: block;
+    margin: 0 auto .5rem;
+    fill: none;
+    stroke-width: 2;
+    stroke: #e94a37;
+}
+
+.site-header .main-nav .sections>li>a {
+    font-weight: 500;
+    font-size: .8rem;
+    color: #fff;
+    height:100px;
+}
+
+a{
+    text-decoration: none;
+    color:#fff;
+}
+
+.linkedi::after {
+    content: "";
+    height: 2px;
+    background: linear-gradient(to right,#0066ff,#00ffa1);
+    width: 100%;
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+}
+
+.header-with-gradient {
+    position: relative;
+    z-index: 1;
+    clip-path: polygon(100% 0, 100% 750%, 0 90%, 0 0);
+}
+
+.header-bc {
+    background: #100e17;
+    padding: 6rem 2rem;
+    display: block;
+}
+
+.header .main-nav .sections>li>a:focus, .header .main-nav .sections>li:hover {
+    background: #201c29;
+}
+.name{
+    font-weight: bolder;
+    font-family: "Didact Gothic";
+    text-align: center;
+    margin-bottom: 1.4em;
+    margin-top: 2em;
+    display: block;
+    font-size: 3.5em;
+}
+
+.header-gradient-after {
+    position: relative;
+    background-image: linear-gradient( 135deg, #e23449 10%, #f16522 100%);
+}
+div {
+    display: block;
+}
+.header-gradient-content {
+    padding: calc(200px + 1rem) 2rem 0 2rem;
+    margin-top: -200px;
+    overflow: hidden;
+}
+.header-gradient-content-inside {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+.bold-underline-links.header-gradient-sponsor {
+    width: 100vw;
+}
+.header-gradient-sponsor p {
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+figure, p, pre {
+    margin: 0 0 1rem 0;
+}
+
+:root {
+    --nav-height: 130px;
+}
+
+*, ::after, ::before {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+user agent stylesheet
+article, aside, footer, header, hgroup, main, nav, section {
+    display: block;
+}
+:root {
+    --nav-height: 130px;
+}
+html {
+    --maxWidth: 1284px;
+    background: #100e17;
+    color: #fff;
+    overflow-x: hidden;
+}
+html {
+    font-family: -system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.35;
+}
+a{
+    white-space: nowrap;
+    position: relative;
+}
+
+.site-header .header-middle-area {
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+}
+
+.sections>li {
+    font-weight: bold;
+    border-radius: 100px;
+    padding:15px;
+}
+
+ul.sections {
+    padding: 0px;
+    margin: 0px;
+}
+.page{
+    background:#fff;
+}
+@media screen and (max-width: 1024px) {
+    body {
+      overflow:visible;
+    }
+    .header {
+        margin-left: 5vw;
+        width: 90vw!important;
+    }
+  }
+
+#univ ,#foreign{
+    padding: 3.5em;
+    background-color: #fff
+}
+.title{
+    font-weight: bolder;
+    color: #100e17;
+    font-family: "Didact Gothic";
+    font-size: 3em;
+    border-bottom: 2px #100e17 solid;
+}
+.univinside, .foreigninside{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.univico{
+    width: 10em;
+    border-radius: 100px;
+    position: relative;
+    left: 33%;
+}
+.subcattitle{
+    color: black;
+    font-family: Segoe ui,sans-serif;
+    font-weight: lighter;
+    text-align: center;
+}
+.descr{
+    color: black;
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: lighter;
+    font-family: "Didact Gothic";
+}
+#border{
+    border: 3px solid #475093;
+}
+br{
+    background-color: white;
+}
+.foreigninside>.english>img, .foreigninside>.french>img {
+    width: 12rem;
+    position: relative;
+    left: 30%;
+}
+.deks {
+    background-image: linear-gradient( 135deg, #e23449 10%, #f16522 100%);
+    width: 100vw;
+    margin: 0;
+    -webkit-clip-path: polygon(100% 0, 100% 88%, 0 100%, 0 20%);
+    clip-path: polygon(100% 0, 100% 88%, 0 100%, 0 20%);
+    display: grid;
+    grid-template-columns: 1fr 0.7fr;
+    grid-template-rows: 10rem 20rem;
+    grid-gap: 1em;
+    margin-top: 8rem;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-top: 20% !important;
+    padding-bottom: 20%;
+    height: fit-content;
+}
+
+.titlegradient{
+    font-weight: bolder;
+    color: #000000;
+    font-family: "Didact Gothic", segoe ui, sans-serif;
+    font-size: 3em;
+    grid-column: 1 / 3;
+    display: grid;
+    text-align: center;
+}
+.subcattitleingradient{
+    font-family: segoe ui;
+    font-weight: lighter;
+    color: black;
+    text-align: center;
+}
+
+.deks>div {
+    margin-top: 1em;
+}
+
+.contain{
+    display: grid;
+    padding: 3.5em;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+}
+.thinkb{
+    transform: translateZ(20px);
+    width: 10em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    transform-style: preserve-3d
+}
+.memb{
+    font-family: "Didact Gothic", sans-serif;
+    font-weight: bolder;
+    text-align: center;
+}
+.extrainfo{
+    text-align: left!important;
+    font-size: 1em;
+    font-family: segoe ui, sans-serif;
+    font-weight: lighter;
+}
+.greenp{
+    transform: translateZ(20px);
+    width: 10em;
+    margin-top: 4.1em;
+    margin-bottom: 1em;
+    transform-style: preserve-3d;
+}
+.card:nth-child(1) {
+    background-image: linear-gradient(to top, #28e7ff,#008eff);
+}
+.card {
+    width: 60%;
+    height: 30rem;
+    box-shadow: -3px 3px 12px 3px #0000001c;
+    justify-items: center;
+    display: grid;
+    grid-template-rows: 0.7fr auto;
+}
+.card:nth-child(2) {
+    background-image: linear-gradient(to top, #28ff88,#02e633);
+}
+
+.footer{
+    margin-top: 26vh;
+    display: grid;
+    padding: 3.5em;
+    grid-template-columns: 1fr;
+    justify-items: center;
+  }
+
+.footername{
+    color: #100e17;
+    font-size: 3.5em;
+    font-family: "Didact Gothic",sans-serif;
+    text-align: center;
+}
+.pot{
+    width: 10.5em;
+    margin-top: -10rem;
+}
+
